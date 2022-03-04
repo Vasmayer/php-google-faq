@@ -34,11 +34,11 @@ Inserire le voci di menu dell'header tramite un array di PHP (i link non devono 
     </header>
     <nav>
             <ul>
-                <li>Introduzione</li>
-                <li>Norme sulla privacy</li>
-                <li>Termini di servizio</li>
-                <li>Tecnologie</li>
-                <li class="active">Domande frequenti</li>
+                <li><strong>Introduzione</strong></li>
+                <li><strong>Norme sulla privacy</strong></li>
+                <li><strong>Termini di servizio</strong></li>
+                <li><strong>Tecnologie</strong></li>
+                <li class="active"><strong>Domande frequenti</strong></li>
             </ul>
         </nav>
         <hr>
@@ -52,5 +52,13 @@ Inserire le voci di menu dell'header tramite un array di PHP (i link non devono 
                 <?php endforeach;?>
             </div>
     </main>
+    <footer>
+        <ul class="fs-13 color-gray">
+            <li>Google</li>
+            <li>Tutto su Google</li>
+            <li>Privacy</li>
+            <li>Termini</li>
+        </ul>
+    </footer>
 </body>
 </html>

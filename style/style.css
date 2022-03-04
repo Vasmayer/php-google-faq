@@ -23,16 +23,37 @@ header span
 {
     color: darkgrey;
 }
+hr{
+    padding:0;
+    margin: 0;
+}
 nav ul
 {
    display: flex;
    list-style-type: none;
+   margin:0;
 }
 nav li
 {
-   padding: 0 30px;
+   padding: 20px 30px;
 }
 .active
 {
     border-bottom: 5px solid #3367D6;
+    color:#3367D6;
+}
+footer
+{
+    height: 50px;
+    background-color: lightgray;
+}
+footer ul
+{
+   display: flex;
+   align-items: center;
+   height: 100%;
+}
+footer li
+{
+   padding: 0 30px;
 }
