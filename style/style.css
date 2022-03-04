@@ -1,4 +1,4 @@
-li{
+#faq li{
     margin: 20px 0;
 }
 .fs-13
@@ -7,5 +7,32 @@ li{
 }
 header
 {
-    height: 100px;
+    height: 50px;
+}
+header img 
+{
+    width: 150px;
+    height: auto;
+    padding: 10px 5px;
+}
+header span 
+{
+    font-size: 25px;
+}
+.color-gray
+{
+    color: darkgrey;
+}
+nav ul
+{
+   display: flex;
+   list-style-type: none;
+}
+nav li
+{
+   padding: 0 30px;
+}
+.active
+{
+    border-bottom: 5px solid #3367D6;
 }

@@ -28,13 +28,24 @@ Inserire le voci di menu dell'header tramite un array di PHP (i link non devono 
     <title>FAQ</title>
 </head>
 <body>
-    <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" alt="logo google">
+    <header class="d-flex align-items-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" alt="logo google" class="img-fluid">
+        <span class="color-gray">Privacy e termini</span>
     </header>
+    <nav>
+            <ul>
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li class="active">Domande frequenti</li>
+            </ul>
+        </nav>
+        <hr>
     <main>
         <div class="container">
             <?php foreach($faqs as $faq):?>
-                <div class="my-5">
+                <div class="my-5" id="faq">
                     <div class="fs-3 pb-3"><strong><?= $faq['title']?></strong></div>
                     <div class="fs-13"><?= $faq['risp']?></div>
                 </div>
